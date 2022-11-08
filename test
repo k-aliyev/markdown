@@ -1,0 +1,31 @@
+### Main Page
+>Navigation Bar
+>>**New User Button** [ ] Enabled **Save User Button Diabled**
+---
+| ID      | Username    | Email               |Enabled  |
+| :---    |:---         |:---                 |:---     |
+| 1       | AdminUser   | admin@piworks.net   | true    |
+| 2       | TestUser    | admin@piworks.net   | true    |
+---
+>New User Form
+##New User
+- Username = ___
+- Display Name = ___
+- Phone = ___
+- Email = ___
+- User Role = {Guest, Admin, SuperAdmin}
+- [ ] Enabled
+ 
+ ###Behavior
+**New User Button** : on click new user form should be displayed
+**Enabled Check Box** : *cheched* only enabled users should be displayed | *not checked* all users should be displayed
+**Save User Button** : on click new user should be created based of inputs in form
+###Validation
+All fields should be validated before submition. In case of error 
+``` js
+alert(errorMsg);
+```
+should be displaed.
+
+###Flow
+When User first enters the page only table with the all users should be displayed, later page layout can be canged depending on users actions.
